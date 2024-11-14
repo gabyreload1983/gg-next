@@ -18,7 +18,7 @@ export default function Home() {
     celphone: "+5493476643800",
   };
   return (
-    <div className="h-screen bg-gradient-to-r from-purple-500 to-pink-500 grid grid-rows-3">
+    <div className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 grid grid-rows-3">
       <nav className="flex justify-center items-center">
         <ul className="flex flex-col items-center gap-3">
           <Link
