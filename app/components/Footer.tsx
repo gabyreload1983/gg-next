@@ -15,11 +15,11 @@ export default function Footer() {
     whatsapp: "https://wa.me/+543476643800",
     instagram: "https://www.instagram.com/estebangabrielgodoy/",
     cv: "https://gabrielgodoy.com.ar/resources/cv/estebangabrielgodoy.pdf",
-    celphone: "+5493476643800",
+    celphone: "tel:+5493476643800",
   };
 
   return (
-    <footer className="flex justify-center items-end gap-5 mb-5 text-2xl lg:text-4xl">
+    <footer className="flex justify-center items-end gap-5 mb-5 text-4xl lg:text-4xl">
       <Link href={socialMedia.linkedin} target="_blank">
         <FaLinkedin className="hover:fill-black" />
       </Link>
