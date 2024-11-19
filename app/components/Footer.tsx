@@ -19,7 +19,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="flex justify-center items-end gap-5 mb-5 text-4xl lg:text-4xl">
+    <footer className="flex justify-center items-end gap-5 py-3 text-4xl lg:text-4xl">
       <Link href={socialMedia.linkedin} target="_blank">
         <FaLinkedin className="hover:fill-black" />
       </Link>

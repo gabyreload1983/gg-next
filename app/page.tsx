@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="grid grid-rows-[auto_1fr]">
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center py-5">
         <Link
           href="projects"
           className="bg-pink-800 py-3 px-10 rounded-md text-center hover:bg-pink-700 hover:text-black"
