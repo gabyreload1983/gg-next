@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="h-dvh bg-gradient-to-r from-purple-500 to-pink-500 grid grid-rows-[1fr_auto]">
+        <div className="min-h-dvh bg-gradient-to-r from-purple-500 to-pink-500 grid grid-rows-[1fr_auto]">
           {children}
           <Footer />
         </div>
