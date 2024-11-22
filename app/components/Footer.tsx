@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  FaCalendarCheck,
   FaDownload,
   FaGithub,
   FaInstagram,
@@ -16,6 +17,7 @@ export default function Footer() {
     instagram: "https://www.instagram.com/estebangabrielgodoy/",
     cv: "https://gabrielgodoy.com.ar/resources/cv/estebangabrielgodoy.pdf",
     celphone: "tel:+5493476643800",
+    calendar: "https://calendly.com/gabyreload",
   };
 
   return (
@@ -37,6 +39,9 @@ export default function Footer() {
       </Link>
       <Link href={socialMedia.celphone} target="_blank">
         <FaPhone className="hover:fill-black" />
+      </Link>
+      <Link href={socialMedia.calendar} target="_blank">
+        <FaCalendarCheck className="hover:fill-black" />
       </Link>
     </footer>
   );
