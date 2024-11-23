@@ -12,7 +12,7 @@ type Proyect = {
 
 export default function ProjectCard({ project }: { project: Proyect }) {
   return (
-    <div className="max-w-5xl flex flex-col md:flex-row gap-2 p-5 bg-gradient-to-r from-slate-500 to-zinc-800">
+    <div className="max-w-5xl grid lg:grid-cols-[auto_1fr] gap-3 p-5 bg-gradient-to-r from-slate-500 to-zinc-800">
       <Link href={project.deployUrl} className="w-full flex" target="_blank">
         <Image
           src={project.imageUrl}
