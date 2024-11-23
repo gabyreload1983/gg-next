@@ -17,7 +17,7 @@ export const projects = [
     title: "GSystem",
     imageUrl: "/images/projects/gsystem.png",
     githubUrl: "https://github.com/gabyreload1983/api-gabysystem",
-    deployUrl: "https://github.com/gabyreload1983/api-gabysystem",
+    deployUrl: "",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
           quidem facilis cum nobis eaque, perspiciatis, eligendi expedita
           reiciendis suscipit, laboriosam quaerat eius? Placeat delectus natus,

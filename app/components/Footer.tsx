@@ -34,14 +34,24 @@ export default function Footer() {
       <Link href={socialMedia.instagram} target="_blank">
         <FaInstagram className="hover:fill-black" />
       </Link>
-      <Link href={socialMedia.cv} target="_blank">
+      <Link href={socialMedia.cv} target="_blank" className="relative group">
         <FaDownload className="hover:fill-black" />
+        <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:block group-hover:opacity-100 transition">
+          CV
+        </span>
       </Link>
       <Link href={socialMedia.celphone} target="_blank">
         <FaPhone className="hover:fill-black" />
       </Link>
-      <Link href={socialMedia.calendar} target="_blank">
+      <Link
+        href={socialMedia.calendar}
+        target="_blank"
+        className="relative group"
+      >
         <FaCalendarCheck className="hover:fill-black" />
+        <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden px-2 py-1 text-sm text-white bg-black rounded opacity-0 group-hover:block group-hover:opacity-100 transition">
+          Calendar
+        </span>
       </Link>
     </footer>
   );
