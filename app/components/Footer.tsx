@@ -15,7 +15,7 @@ export default function Footer() {
     github: "https://github.com/gabyreload1983/",
     whatsapp: "https://wa.me/+543476643800",
     instagram: "https://www.instagram.com/estebangabrielgodoy/",
-    cv: "https://gabrielgodoy.com.ar/resources/cv/estebangabrielgodoy.pdf",
+    cv: "/cv/estebangabrielgodoy.pdf",
     celphone: "tel:+5493476643800",
     calendar: "https://calendly.com/gabyreload",
   };
